@@ -1,0 +1,51 @@
+@use '../assets';
+
+#app-mount {
+	.card-16VQ8C {
+		border-radius: var(--border-radius);
+		padding: var(--spacing);
+
+		// Status Cards
+		&.cardWarning-WRe-Qa {
+			background-color: rgb(var(--status-yellow), 0.25);
+			border-color: rgb(var(--status-yellow), 0.5);
+		}
+		&.cardDanger-39N1qE {
+			background-color: rgb(var(--status-red), 0.25);
+			border-color: rgb(var(--status-red), 0.5);
+		}
+		&.cardSuccess-ahnYyu {
+			background-color: rgb(var(--status-green), 0.25);
+			border-color: rgb(var(--status-green), 0.5);
+		}
+		&.cardBrand-19kLUs {
+			background-color: rgb(var(--accent), 0.25);
+			border-color: rgb(var(--accent), 0.5);
+		}
+
+		// Primary Cards
+		&.cardPrimary-3qRT__,
+		&.cardPrimaryOutline-1ofwVz,
+		&.cardPrimaryEditable-2mz_3i {
+			background-color: var(--background-alt);
+			border-color: var(--base-border);
+		}
+	}
+	// Close Button
+	.button-1yVL_7 {
+		width: 16px;
+		height: 16px;
+		top: 0;
+		right: 0;
+		box-shadow: none;
+		border-radius: 0;
+		transition: none;
+		background: var(--text-muted);
+		mask: url(assets.$icon_close) center/12px no-repeat;
+		transform: none;
+		&:hover,
+		&:active {
+			background: var(--text-normal);
+		}
+	}
+}

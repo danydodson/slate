@@ -1,0 +1,197 @@
+#app-mount {
+	.shaker-1N31jI {
+		flex-grow: 0;
+
+		// Breadcrumb shenanigans
+		.modalHeader-gQTY3L {
+			display: none;
+		}
+		.breadcrumbsWrapper--2LhnQ {
+			position: relative;
+			left: calc(var(--spacing-double) * -1);
+			padding: 0 var(--spacing-double);
+			height: 50px;
+			box-sizing: border-box;
+			width: calc(100% + var(--spacing) * 4);
+			border-bottom: 1px solid var(--base-border);
+			display: flex;
+			align-items: center;
+			.breadcrumbWrapper-3rpYiO {
+				color: var(--text-normal);
+				font-weight: var(--font-weight-semibold);
+				.breadcrumb-17S_pr {
+					font-size: var(--font-size-md);
+					font-weight: var(--font-weight-semibold);
+					opacity: 0.5;
+					line-height: 18px;
+					&.activeBreadcrumb-2xVic0 {
+						opacity: 1;
+						color: var(--text-normal);
+					}
+				}
+			}
+		}
+		.content-2hZxGK {
+			padding-top: 0;
+		}
+		.transitionGroup-bPT0qU {
+			div[style*='transform: translate'] {
+				transform: none !important;
+			}
+
+			// Plan Select
+			.stepBody-352ojt {
+				padding-top: var(--spacing-double);
+				.selectPlanChooseTitle-2s_-pK {
+					font-size: var(--font-size-md);
+					font-weight: var(--font-weight-semibold);
+					color: var(--text-normal);
+				}
+				.selectPlanDivider-ix3UqM {
+					display: none;
+				}
+				.selectPlanTotalRow-Lfou0Q {
+					margin-top: var(--spacing);
+					border-radius: var(--border-radius);
+					background: var(--background-alt);
+					border: 1px solid var(--base-border);
+					padding: var(--spacing);
+					height: auto;
+					.totalLabel-2RGUEh {
+						color: var(--text-normal);
+						font-size: var(--font-size);
+						font-weight: var(--font-weight-normal);
+						line-height: normal;
+					}
+					.totalAmount-2L8PzN {
+						font-weight: var(--font-weight-normal);
+						color: var(--text-normal);
+						.pricePerInterval-3PUiOj {
+							font-size: var(--font-size);
+							color: var(--text-muted);
+							font-weight: var(--font-weight-normal);
+							line-height: normal;
+							strong {
+								color: var(--text-normal);
+								font-size: var(--font-size-md);
+								font-weight: var(--font-weight-semibold);
+								line-height: normal;
+							}
+						}
+					}
+				}
+				.planOption-O40NxN {
+					color: var(--text-normal);
+					font-size: var(--font-size);
+					font-weight: var(--font-weight-normal);
+					padding: 0;
+					margin-bottom: var(--spacing-half);
+					.planOptionClickable-1xhJY2 {
+						cursor: var(--cursor);
+					}
+					.optionSelected-UixuB2 {
+						color: var(--text-normal);
+					}
+					.planOptionDiscount-2UFc37 {
+						color: var(--white);
+						background: rgb(var(--status-green));
+						border-radius: var(--border-radius);
+						text-transform: capitalize;
+						font-size: var(--font-size);
+						margin-left: var(--spacing-half);
+						padding: calc(var(--spacing) / 5) var(--spacing-half);
+					}
+					.planOptionCheckbox-2c33l1 {
+						margin-right: var(--spacing-half);
+						.inputReadonly-33V1FI {
+							z-index: 1;
+							opacity: 1;
+							position: relative;
+							appearance: checkbox;
+							width: 14px !important;
+							height: 14px !important;
+						}
+						.checkbox-f1HnKB {
+							display: none;
+						}
+					}
+				}
+			}
+
+			// Payment Options (_paymentmethod.scss)
+			.paymentTypeSelectStep-q07Z2s {
+				padding: 0;
+				margin-top: var(--spacing);
+			}
+			.inputWrapper-2MDzau,
+			.cardNumberWrapper-3YhV1H {
+				.cardIconSmall-1bah4o {
+					display: none;
+				}
+			}
+			.row-26evXk {
+				padding-top: var(--spacing);
+				&:first-child {
+					padding-top: 0;
+				}
+			}
+			button {
+				.cardIconSmall-1bah4o {
+					width: 24px;
+					height: 16.5px;
+					box-shadow: none;
+					&::before,
+					&::after {
+						border-radius: 0;
+					}
+				}
+				&:first-child {
+					margin: 0;
+				}
+			}
+		}
+		// Back Button
+		.link-290TKp {
+			font-size: var(--font-size);
+			font-weight: var(--font-weight-normal);
+			cursor: var(--cursor);
+			min-height: var(--input-height);
+			height: var(--input-height);
+			line-height: normal;
+			transition: none;
+			box-sizing: border-box;
+			padding: 0 var(--spacing);
+			border-radius: var(--button-border-radius);
+			display: flex;
+			align-items: center;
+			color: var(--text-normal);
+			background: var(--background-light);
+			border: 1px solid var(--base-border);
+			cursor: var(--cursor);
+			text-decoration: none;
+			&:hover {
+				border: 1px solid currentColor;
+				.contents-3ca1mk {
+					background-image: none;
+				}
+			}
+			&:focus {
+				box-shadow: 0 0 0 1px currentColor !important;
+				border: 1px solid currentColor !important;
+			}
+		}
+	}
+}
+
+// Light Mode
+
+#app-mount .shaker-1N31jI .link-290TKp {
+	&:hover {
+		background: var(--background);
+		border: 1px solid var(--secondary-border);
+	}
+	&:focus {
+		box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.05) !important;
+		border: 1px solid var(--secondary-border) !important;
+	}
+}

@@ -1,0 +1,188 @@
+@use '../assets';
+
+#app-mount .wrapper-3ByaVZ .root-g14mjS {
+	max-width: 600px;
+	min-width: 400px;
+	width: 500px;
+	.header-1zd7se {
+		position: relative;
+		overflow: visible;
+		.marginBottom8-emkd0_ {
+			margin: 0;
+			flex-grow: 0;
+			width: fit-content;
+		}
+		.close-1mLglB {
+			right: calc(var(--spacing-double) - 6px);
+			top: unset;
+		}
+	}
+	.container-1SX9VC {
+		margin: 0;
+		padding: var(--spacing-double);
+		background: var(--background);
+		box-sizing: border-box;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 100%;
+		.inner-1NoIT5 {
+			overflow: visible !important;
+		}
+		.iconLayout-SqV3nb {
+			position: absolute;
+			height: 100%;
+			width: 24px;
+			.iconContainer-1RqWJj {
+				width: 14px;
+				height: 14px;
+				.icon-18rqoe {
+					color: var(--text-muted);
+					cursor: var(--cursor);
+					&:hover {
+						color: var(--text-normal);
+					}
+				}
+			}
+		}
+	}
+	.content-2hZxGK {
+		height: 300px;
+		margin-top: 65px;
+		margin-bottom: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.title-2CL_z0 {
+			color: var(--text-normal);
+			font-size: var(--font-size);
+			font-weight: var(--font-weight-normal);
+			text-transform: none;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			&::before {
+				content: '';
+				width: 272px;
+				height: 146px;
+				background: var(--text-muted);
+				position: relative;
+				display: block;
+				margin-bottom: var(--spacing-half);
+				mask: url(assets.$illustration_4) center/contain no-repeat;
+			}
+		}
+	}
+	.scroller-3nFW5p {
+		height: 300px;
+		max-height: unset;
+		padding: 0;
+		margin-top: 65px;
+		.content-2a4AW9 {
+			height: auto !important;
+		}
+		.inviteRow-3vmB7i {
+			box-sizing: border-box;
+			height: var(--item-height);
+			margin: 0;
+			padding: 0 var(--spacing-double);
+			border-radius: 0;
+			&:hover {
+				background: var(--background-modifier-hover);
+			}
+			&:active {
+				background: var(--background-modifier-active);
+			}
+			.inviteRowButton-3hcOhY,
+			.lookLink-9FtZy- {
+				color: var(--text-normal);
+				background: var(--background-light);
+				border: 1px solid var(--base-border);
+				box-shadow: none !important;
+				cursor: var(--cursor);
+				height: var(--input-height);
+				min-height: var(--input-height);
+				width: auto;
+				margin: 0;
+				&:hover {
+					border: 1px solid currentColor;
+					.contents-18-Yxp {
+						text-decoration: none;
+					}
+				}
+				&:focus {
+					box-shadow: 0 0 0 1px currentColor !important;
+					border: 1px solid currentColor !important;
+				}
+				&.lookLink-9FtZy- {
+					pointer-events: none;
+				}
+			}
+			.inviteRowInfo-3Sskcq {
+				margin-right: var(--spacing);
+				overflow: visible;
+				max-width: 85%;
+				.inviteRowAvatar-3ETE3i {
+					height: var(--avatar-size-sm) !important;
+					width: var(--avatar-size-sm) !important;
+					margin-right: var(--spacing);
+					foreignObject {
+						overflow: visible;
+					}
+				}
+				.inviteRowName-3H4s_c {
+					color: var(--text-normal);
+					font-size: var(--font-size);
+					font-weight: var(--font-weight-normal);
+				}
+			}
+		}
+	}
+	.settingsContent-FljNi7 {
+		margin: 0;
+		align-items: flex-start;
+		height: auto;
+		.marginTop20-2T8ZJx:first-child {
+			margin: 0;
+		}
+		.switch-3wwwcV {
+			margin-right: var(--spacing-half);
+		}
+	}
+	.footer-31IekZ {
+		.title-3hptVQ,
+		.content-3nJg0c::before {
+			display: none;
+		}
+		div.input-2g-os5 {
+			background: transparent;
+			border: none;
+			padding: 0;
+			height: auto;
+		}
+		.footerText-2QLGHU {
+			color: var(--text-muted);
+			margin-top: var(--spacing-half);
+		}
+	}
+}
+
+// Light Mode
+html.theme-light {
+	#app-mount
+		.wrapper-3ByaVZ
+		.root-g14mjS
+		.scroller-3nFW5p
+		.inviteRow-3vmB7i
+		.inviteRowButton-3hcOhY,
+	#app-mount .wrapper-3ByaVZ .root-g14mjS .scroller-3nFW5p .inviteRow-3vmB7i .lookLink-9FtZy- {
+		&:hover {
+			background: var(--background);
+			border: 1px solid var(--secondary-border);
+		}
+		&:focus {
+			box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.05) !important;
+			border: 1px solid var(--secondary-border) !important;
+		}
+	}
+}

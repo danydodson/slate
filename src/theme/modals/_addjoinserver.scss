@@ -1,0 +1,259 @@
+@use '../assets';
+
+#app-mount .theme-light .root-g14mjS {
+	transform: none !important;
+	.container-1Lk8p7 {
+		width: 100%;
+		& > div[style*='width'] {
+			width: 100% !important;
+			& > div[style*='width'] {
+				width: 100% !important; // holy fuck why
+				transform: none !important;
+				top: 0 !important;
+			}
+		}
+		.header-1zd7se {
+			align-items: flex-start;
+			justify-content: center;
+			.title-1_TkpU,
+			.title-2Giw-4,
+			.title-1LqMUp,
+			.title-OdeD-o {
+				font-weight: var(--font-weight-semibold);
+				color: var(--text-normal);
+				font-size: var(--font-size-md);
+				text-align: left;
+				line-height: normal;
+				margin: 0;
+			}
+			.colorHeaderSecondary-g5teka {
+				display: none;
+			}
+			.closeButton-2ygCkj,
+			.closeButton-1diDVp,
+			.closeButton-15_aIJ {
+				top: unset;
+				right: calc(var(--spacing) * 1.25);
+			}
+		}
+		.content-2hZxGK {
+			&:not(.templatesList-uohY49) .container-x8Y1ix {
+				color: var(--text-normal);
+				background: var(--background-light);
+				border: 1px solid var(--base-border);
+				cursor: var(--cursor);
+				box-shadow: none !important;
+				&:hover {
+					border: 1px solid currentColor;
+				}
+				&:focus {
+					box-shadow: 0 0 0 1px currentColor !important;
+					border: 1px solid currentColor !important;
+				}
+			}
+		}
+		.container-x8Y1ix {
+			font-size: var(--font-size);
+			font-weight: var(--font-weight-normal);
+			box-sizing: border-box;
+			line-height: normal;
+			transition: none;
+			padding: var(--spacing);
+			border-radius: var(--button-border-radius);
+			margin-bottom: var(--spacing);
+			&::before {
+				content: '';
+				margin: var(--spacing-half) var(--spacing) var(--spacing-half) var(--spacing-half);
+				width: 24px;
+				height: 24px;
+				background: currentColor;
+				mask-size: contain;
+				mask-position: center;
+				mask-repeat: no-repeat;
+				mask-image: url(assets.$icon_cog);
+			}
+			.text-PdAsFQ {
+				font-weight: var(--font-weight-normal);
+				color: inherit;
+			}
+			img {
+				display: none;
+			}
+		}
+		.templatesList-uohY49 {
+			margin: 0;
+			.optionHeader-27AHfD {
+				font-size: var(--font-size);
+				font-weight: var(--font-weight-normal);
+				text-transform: none;
+				color: var(--text-normal);
+				margin: var(--spacing) 0;
+				margin-top: var(--spacing-double);
+			}
+			.container-x8Y1ix {
+				&:first-child {
+					color: var(--white);
+					background-color: rgb(var(--accent));
+					&:hover {
+						box-shadow: inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
+					}
+					&:focus {
+						box-shadow: 0 0 0 2px rgb(var(--accent), 0.25),
+							inset 0 0 0 100vmax rgb(255, 255, 255, 0.1);
+					}
+					&::before {
+						mask-image: url(assets.$icon_repo_clone);
+					}
+				}
+				&:not(:first-child) {
+					color: var(--text-normal);
+					background: var(--background-light);
+					border: 1px solid var(--base-border);
+					cursor: var(--cursor);
+					box-shadow: none !important;
+					&:hover {
+						border: 1px solid currentColor;
+					}
+					&:focus {
+						box-shadow: 0 0 0 1px currentColor !important;
+						border: 1px solid currentColor !important;
+					}
+				}
+				&:nth-last-child(2) {
+					margin: 0;
+					&::before {
+						mask-image: url(assets.$icon_location);
+					}
+				}
+				&:nth-last-child(5)::before {
+					mask-image: url(assets.$icon_organization);
+				}
+				&:nth-last-child(3)::before {
+					mask-image: url(assets.$icon_paintcan);
+				}
+				&:nth-last-child(6)::before {
+					mask-image: url(assets.$icon_mortar-board);
+				}
+				&:nth-last-child(4)::before {
+					mask-image: url(assets.$icon_heart);
+				}
+				&:nth-last-child(7)::before {
+					mask-image: url(assets.$icon_rocket);
+				}
+			}
+		}
+		.createGuild-2m1V10 {
+			margin: 0;
+			.nameInput-ph8KMi {
+				margin-top: var(--spacing-double);
+			}
+			.uploadIcon-2wV7s_ {
+				color: var(--text-muted);
+				circle {
+					fill: var(--accent-solid);
+				}
+			}
+			.guidelines-FvqqF2 {
+				color: var(--text-muted);
+				font-size: var(--font-size-sm);
+				font-weight: var(--font-weight-normal);
+				margin-top: var(--spacing);
+				strong {
+					font-weight: var(--font-weight-normal);
+				}
+			}
+		}
+		.input-m1-Y7Q {
+			background: transparent;
+		}
+		.inputForm-3RoxXV {
+			margin-bottom: var(--spacing);
+		}
+		.formTitle-2YQyhj,
+		.h5-2RwDNl {
+			margin-bottom: var(--spacing-third);
+		}
+		.examplesForm-N_P087 {
+			margin-bottom: 0;
+			.sampleLink-5BWNy9 {
+				line-height: var(--line-height);
+				border-radius: var(--border-radius);
+				padding: var(--spacing-third) var(--spacing-half);
+				color: var(--text-normal);
+				background: var(--background-modifier-active);
+				font-size: var(--font-size-sm);
+				font-weight: var(--font-weight-normal);
+				flex-grow: 0;
+				display: inline-block;
+				margin-right: var(--spacing-half);
+				margin-bottom: var(--spacing-half);
+				user-select: none;
+			}
+		}
+		.templatesList-uohY49 + .footer-31IekZ button {
+			padding: var(--spacing);
+			height: auto;
+			margin: 0;
+		}
+		.footer-31IekZ {
+			justify-content: flex-start;
+			.footerTitle-3Bslxi {
+				display: none;
+			}
+			button[type='button'].button-f2h6uQ {
+				font-size: var(--font-size);
+				font-weight: var(--font-weight-normal);
+				cursor: var(--cursor);
+				min-height: var(--input-height);
+				height: var(--input-height);
+				line-height: normal;
+				transition: none;
+				box-sizing: border-box;
+				padding: 0 var(--spacing);
+				border-radius: var(--button-border-radius);
+				color: var(--text-normal);
+				background: var(--background-light);
+				border: 1px solid var(--base-border);
+				cursor: var(--cursor);
+				box-shadow: none !important;
+				&:hover {
+					border: 1px solid currentColor;
+				}
+				&:focus {
+					box-shadow: 0 0 0 1px currentColor !important;
+					border: 1px solid currentColor !important;
+				}
+			}
+		}
+	}
+}
+
+// Light Mode
+
+html.theme-light
+	#app-mount
+	.theme-light
+	.root-g14mjS
+	.container-36u7Lw
+	> div[style*='width']
+	> div[style*='width']
+	.templatesList-uohY49
+	.itemContainer-1LSFks:not(:first-child),
+html.theme-light
+	#app-mount
+	.theme-light
+	.root-g14mjS
+	.container-36u7Lw
+	> div[style*='width']
+	> div[style*='width']
+	.footer-31IekZ
+	button.lookBlank-3eh9lL {
+	&:hover {
+		background: var(--background);
+		border: 1px solid var(--secondary-border);
+	}
+	&:focus {
+		box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.05) !important;
+		border: 1px solid var(--secondary-border) !important;
+	}
+}

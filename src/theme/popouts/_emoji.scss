@@ -1,0 +1,126 @@
+@use '../assets';
+
+#app-mount {
+	.popoutContainer-2wbmiM {
+		width: 274px;
+		border-radius: var(--border-radius);
+		box-shadow: var(--elevation-1);
+		background: var(--background);
+		border: 1px solid var(--base-border);
+		.loadingBackground-1p5N1j {
+			height: 84px;
+			width: 100%;
+			margin: 0;
+			background: var(--text-normal);
+			mask: url(assets.$icon_spinner) center/12px no-repeat;
+			animation: rotate 1s linear infinite;
+			.loading-1lSwpg {
+				display: none;
+			}
+		}
+		.emojiSection-3QtaWO {
+			padding: var(--spacing);
+			background: transparent;
+			.primaryEmoji-2Og_xG {
+				width: var(--avatar-size-lg);
+				height: var(--avatar-size-lg);
+				min-width: unset;
+				min-height: unset;
+				margin: 0;
+				border-radius: var(--border-radius);
+			}
+			.colorStandard-21JIj7 {
+				color: var(--text-muted);
+				font-size: var(--font-size);
+				font-weight: var(--font-weight);
+				line-height: normal;
+				&.emojiName-3KEqts {
+					color: var(--text-normal);
+					font-weight: var(--font-weight-semibold);
+				}
+			}
+			button {
+				margin: 0;
+				width: auto;
+				margin-top: var(--spacing);
+			}
+			.truncatingText-3by0aD {
+				margin-left: var(--spacing);
+			}
+		}
+		.guildSection-2Zyzy8 {
+			padding: var(--spacing);
+			background: var(--background-light);
+			border-top: 1px solid var(--base-border);
+			.flex-1xMQg5 {
+				svg {
+					width: var(--avatar-size-lg);
+					height: var(--avatar-size-lg);
+					foreignObject {
+						mask: none;
+						.guildIcon-EvT-p6 {
+							border-radius: var(--border-radius);
+						}
+					}
+				}
+			}
+			.guildName-3JcJGj {
+				line-height: normal;
+			}
+			.guildTitle-1yMWvh {
+				margin-bottom: var(--spacing-half);
+				font-size: var(--font-size);
+			}
+			.overflow-1wOqNV {
+				color: var(--text-normal);
+				font-size: var(--font-size);
+			}
+			.dotSeparator-2N42Ni {
+				background-color: var(--text-muted);
+			}
+			.showMoreEmojis-1K08_X {
+				min-height: var(--input-height);
+				height: var(--input-height);
+				line-height: normal;
+				transition: none;
+				box-sizing: border-box;
+				display: flex;
+				align-items: center;
+				width: fit-content;
+				cursor: var(--cursor);
+				padding: 0 var(--spacing);
+				margin-top: var(--spacing);
+				border-radius: var(--button-border-radius);
+				background: var(--background-light);
+				border: 1px solid var(--base-border);
+				font-size: var(--font-size);
+				font-weight: var(--font-weight-normal);
+				color: var(--text-normal);
+				.flex-2S1XBF {
+					flex-grow: 0 !important;
+				}
+				.showMoreEmojisArrow-2zv_xG {
+					display: none;
+				}
+				&:hover {
+					border: 1px solid currentColor;
+				}
+				&:focus {
+					box-shadow: 0 0 0 1px currentColor !important;
+					border: 1px solid currentColor !important;
+				}
+			}
+		}
+	}
+}
+
+html.theme-light #app-mount .container-ZRw2kD .guildSection-2Zyzy8 .showMoreEmojis-1K08_X {
+	&:hover {
+		background: var(--background);
+		border: 1px solid var(--secondary-border);
+	}
+	&:focus {
+		box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.05) !important;
+		border: 1px solid var(--secondary-border) !important;
+	}
+}

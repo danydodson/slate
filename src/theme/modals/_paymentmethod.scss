@@ -1,0 +1,31 @@
+#app-mount .form-2CaJzg .content-rRIcam .transitionGroup-bPT0qU {
+	div[style*='transform: translate'] {
+		transform: none !important;
+	}
+	button {
+		.cardIconSmall-1bah4o {
+			width: 24px;
+			height: 16.5px;
+			box-shadow: none;
+			&::before,
+			&::after {
+				border-radius: 0;
+			}
+		}
+		&:first-child {
+			margin: 0;
+		}
+	}
+	.inputWrapper-2MDzau,
+	.cardNumberWrapper-3YhV1H {
+		.cardIconSmall-1bah4o {
+			display: none;
+		}
+	}
+	.row-26evXk {
+		padding-top: var(--spacing);
+		&:first-child {
+			padding-top: 0;
+		}
+	}
+}

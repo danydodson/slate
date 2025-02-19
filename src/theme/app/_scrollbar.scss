@@ -1,0 +1,52 @@
+#app-mount {
+	.messagesPopout-eVzQcI,
+	.listWrapper-2nHLP8 .scroller-2FKFPG,
+	.contentWrapper-3vHNP2 .scroller-2FKFPG,
+	.container-1D34oG .scrollerBase-_bVAAt,
+	.scroller-2qwVWY,
+	.scroller,
+	.infoScroller-3EYYns,
+	.listScroller-2_vlfo,
+	.scroller-kQBbkU,
+	.rolesList-22qj2L,
+	.templatesList-uohY49,
+	.autocompleteScroller-3L6kmy,
+	.keybindGroup-39HP2U,
+	.regionSelectModalOptions-2TWQOB,
+	.scroller-1jBQYo {
+		&::-webkit-scrollbar {
+			width: 4px;
+			display: none;
+			background: transparent !important;
+		}
+		&::-webkit-scrollbar-track {
+			margin: 0;
+		}
+		&::-webkit-scrollbar-track-piece {
+			background: transparent;
+			border-color: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			background-color: var(--scrollbar-background);
+			border-radius: 0;
+			border-radius: var(--border-radius);
+			border: none;
+			&:hover {
+				background-color: var(--scrollbar-background-hover);
+			}
+			&:active {
+				background-color: var(--scrollbar-background-active);
+			}
+		}
+		&::-webkit-scrollbar-button,
+		&::-webkit-scrollbar-corner {
+			display: none !important;
+		}
+		&:hover {
+			overflow: overlay !important;
+			&::-webkit-scrollbar {
+				display: block;
+			}
+		}
+	}
+}

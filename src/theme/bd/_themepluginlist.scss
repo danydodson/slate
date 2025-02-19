@@ -1,0 +1,38 @@
+.bd-addon-list {
+	.bd-addon-card {
+		border-radius: var(--border-radius);
+		border: 1px solid var(--base-border);
+		background: var(--background-dark);
+		margin-bottom: var(--spacing);
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.bd-addon-header {
+		background: var(--background-alt);
+		padding: var(--spacing);
+	}
+	.bd-title {
+		font-size: var(--font-size);
+	}
+	.bd-name {
+		color: var(--text-focus);
+	}
+	.bd-meta {
+		color: var(--text-muted);
+	}
+
+	.bd-description-wrap {
+		padding: var(--spacing);
+	}
+	.bd-description {
+		padding: 0;
+		font-size: var(--font-size);
+		color: var(--text-normal);
+		margin-bottom: 0;
+	}
+
+	.bd-footer {
+		padding: 0 var(--spacing) var(--spacing);
+	}
+}

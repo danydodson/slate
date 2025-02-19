@@ -1,0 +1,105 @@
+@use '../assets';
+
+#app-mount .member-2gU6Ar {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	background: transparent;
+	&.offline-22aM7E {
+		opacity: 0.5;
+	}
+
+	// Generic member entries
+	.layout-1qmrhw {
+		border-radius: 0;
+		height: var(--member-height);
+		padding: 0 calc(var(--spacing) + 5px);
+		cursor: var(--cursor);
+	}
+	.avatar-6qzftW {
+		margin-right: var(--spacing-double);
+		width: var(--avatar-size-sm) !important;
+		height: var(--avatar-size-sm) !important;
+	}
+	.name-3Vmqxm {
+		font-size: var(--font-size);
+		font-weight: var(--font-weight-normal);
+		color: var(--text-normal);
+		line-height: normal;
+	}
+	.wrapper-1VLyxH {
+		width: var(--avatar-size-sm) !important;
+		height: var(--avatar-size-sm) !important;
+	}
+	.content-1U25dZ {
+		overflow: visible;
+	}
+	.activity-2EQDZv {
+		font-size: var(--font-size-sm);
+		font-weight: var(--font-weight-semibold);
+		color: var(--text-muted);
+		.icon-Lupfh- {
+			margin-left: calc(var(--spacing) / 4);
+		}
+	}
+
+	// Bot Tag
+	.botTag-2mryIa:not(.tag-wWVHyf) {
+		font-size: 0;
+		padding: 0;
+		height: auto;
+		width: auto;
+		background-color: var(--background-modifier-active);
+		border-radius: var(--border-radius);
+		order: -1;
+		margin-left: 0;
+		margin-top: 0;
+		margin-right: var(--spacing-half);
+		span,
+		svg {
+			display: none;
+		}
+		&::before {
+			content: '';
+			width: 16px;
+			height: 16px;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			mask: url(assets.$icon_cog) center/12px no-repeat;
+			background: var(--text-normal);
+		}
+	}
+	&.selected-1-Z6gm {
+		.activity-2EQDZv,
+		.roleColor-nA7BqX {
+			color: #fff !important;
+		}
+	}
+
+	// Placeholders
+	&.placeholder-1WgmVn {
+		padding: 0 var(--spacing);
+		animation: none;
+		.placeholderAvatar-1qAcRZ {
+			border-radius: var(--border-radius);
+			border: 1px solid var(--base-border);
+			width: var(--avatar-size-sm);
+			height: var(--avatar-size-sm);
+			background: var(--background-dark);
+		}
+	}
+	&.offline-22aM7E .wrapper-1VLyxH foreignObject::after {
+		content: none;
+	}
+}
+.mulitplePlaceholderUsername-2T3DCI,
+.placeholderUsername-3iQi_D,
+.memberGroupsPlaceholder-9tqX9V {
+	background: var(--text-muted);
+	opacity: 0.2;
+	height: 4px;
+	animation: none;
+	border-radius: var(--border-radius);
+}

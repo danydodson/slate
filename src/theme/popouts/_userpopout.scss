@@ -1,0 +1,199 @@
+#app-mount {
+	.userPopoutOuter-3AVBmJ {
+		border: 1px solid var(--base-border);
+		box-shadow: var(--elevation-1);
+		border-radius: var(--border-radius);
+		padding: 0;
+		.avatarWrapper-3y0KZ1 {
+			border-radius: 0;
+		}
+		.bannerSVGWrapper-qc0szY foreignObject {
+			mask: none;
+		}
+		.scroller-1jBQYo {
+			padding: 0 !important;
+		}
+		.overlayBackground-1KgwVi {
+			margin-top: var(--spacing);
+		}
+	}
+	.avatarHint-2g3Mcd {
+		foreignObject {
+			mask: none;
+		}
+	}
+	.userPopoutInner-1hXSeY {
+		background: var(--background);
+		&::before {
+			content: none;
+		}
+	}
+	.userTag-PXLYzP {
+		line-height: var(--line-height);
+	}
+	.overlayBackground-1KgwVi {
+		background: transparent;
+		margin: 0;
+	}
+	.avatarWrapper-3y0KZ1 {
+		left: var(--spacing);
+	}
+	.section-3FmfOT {
+		padding: 0;
+		position: relative;
+		& > .title-1r9MQ6 {
+			color: var(--text-normal);
+			font-weight: var(--font-weight-semibold);
+			font-size: var(--font-size);
+			margin-bottom: 0;
+			padding: 0 var(--spacing);
+			text-transform: none;
+			background: var(--background-light);
+			border-bottom: 1px solid var(--base-border);
+			border-top: 1px solid var(--base-border);
+			height: 28px;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			width: 100%;
+		}
+		&:not(.section--1D3ev) > :not(.title-1r9MQ6) {
+			padding: var(--spacing);
+		}
+	}
+	.customStatus-3Bvsdb {
+		padding-top: 0 !important;
+	}
+	.divider-1tWBgZ {
+		display: none;
+	}
+
+	.roles-3zC7MX {
+		margin: 0;
+		padding: 0 var(--spacing) var(--spacing);
+		display: flex;
+		gap: var(--spacing-half);
+	}
+	.member-perm,
+	.role-2TIOKu {
+		border: none;
+		position: relative;
+		border-radius: 50px;
+		overflow: hidden;
+		padding: var(--spacing-half) calc(var(--spacing) / 1.5);
+		margin: 0;
+		height: auto;
+		height: 22px;
+		background: transparent;
+		&:hover .roleCircle-3TFUOr,
+		&:active .roleCircle-3TFUOr {
+			opacity: 1;
+			box-sizing: border-box;
+			.roleRemoveIcon-387wKV {
+				opacity: 1;
+			}
+		}
+
+		.roleRemoveButton-17oXnT {
+			position: absolute;
+			inset: 0;
+			&[aria-hidden='false']:hover ~ .roleName-2ZJJYR {
+				opacity: 0;
+				pointer-events: none;
+			}
+		}
+		.perm-circle,
+		.roleCircle-3TFUOr {
+			margin: 0;
+			border-radius: var(--border-radius);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0.75;
+			filter: none;
+			.roleRemoveIcon-387wKV {
+				position: relative;
+				z-index: 10;
+				background: inherit;
+				width: 100%;
+				height: 100%;
+				padding: var(--spacing-third);
+				box-sizing: border-box;
+				opacity: 0;
+				border-radius: 50px;
+				path {
+					fill: var(--white);
+					transform: scale(0.75);
+					transform-origin: center;
+				}
+			}
+		}
+		.member-perm .name,
+		.roleName-2ZJJYR {
+			overflow: hidden;
+			line-height: normal;
+			position: relative;
+			z-index: 1;
+			margin-right: 0;
+			color: var(--white);
+			font-size: var(--font-size-sm);
+			font-weight: var(--font-weight-normal);
+		}
+	}
+	.actionButton-1YKTU0 {
+		position: absolute;
+		top: calc(var(--spacing-triple) / -1 - var(--spacing-half) - 2px);
+		right: 0;
+		padding: 0 var(--spacing);
+		margin: 0;
+		border-radius: 0;
+		background: transparent;
+		height: 28px;
+		border-radius: var(--border-radius);
+		color: var(--text-muted);
+		cursor: var(--cursor);
+		height: 26px;
+		.addButtonIcon-3HZ_2f {
+			height: var(--font-size);
+			width: var(--font-size);
+			cursor: var(--cursor);
+		}
+		&:hover,
+		&[aria-expanded='true'] {
+			color: var(--text-normal);
+		}
+	}
+	.profileBadges-31rDHI {
+		padding: 0;
+		top: var(--spacing);
+		right: var(--spacing);
+		background: transparent;
+	}
+
+	// Message
+	.section--1D3ev {
+		&::before {
+			content: 'Send Message';
+			color: var(--text-normal);
+			font-weight: var(--font-weight-semibold);
+			font-size: var(--font-size);
+			margin-bottom: 0;
+			padding: 0 var(--spacing);
+			text-transform: none;
+			background: var(--background-light);
+			border-bottom: 1px solid var(--base-border);
+			border-top: 1px solid var(--base-border);
+			height: 28px;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			width: 100%;
+		}
+		.messageInputContainer-2rGDH8 {
+			margin: var(--spacing);
+			border: none;
+		}
+	}
+}

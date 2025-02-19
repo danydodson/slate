@@ -1,0 +1,76 @@
+::-webkit-input-placeholder {
+	user-select: none;
+}
+
+html {
+	line-height: var(--line-height);
+}
+
+.app-2CXKsg,
+.bg-1QIAus {
+	background: var(--background);
+	transform: none !important;
+	top: 0 !important;
+}
+body {
+	background: var(--background);
+}
+
+#app-mount {
+	background: var(--background);
+	.base-2jDfDU {
+		border-radius: 0;
+		overflow: visible !important;
+	}
+	.layers-OrUESM {
+		z-index: 11;
+		overflow: visible;
+	}
+	.layer-86YKbF {
+		opacity: 1 !important;
+		transform: none !important;
+		top: 0;
+		padding-top: 0;
+		&.animating-1rIrGV {
+			pointer-events: all;
+			will-change: unset;
+			* {
+				pointer-events: all !important;
+			}
+		}
+		&.baseLayer-W6S8cY {
+			z-index: 1;
+		}
+	}
+
+	// Mentions/Channel jump
+	.mention {
+		background: rgb(var(--accent), 0.15);
+		border-radius: var(--border-radius);
+		color: var(--accent-solid);
+		cursor: var(--cursor);
+		.channelIcon-3I2O7O {
+			width: var(--font-size);
+			height: var(--font-size);
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		&.iconMentionText-1_WCtN {
+			padding-left: 16px;
+		}
+		&:hover {
+			background: var(--accent-solid);
+			color: var(--white);
+		}
+	}
+
+	// Remove box-shadow from chat
+	.content-1jQy2l::before {
+		content: none;
+	}
+
+	// Remove cursor pointer
+	.interactive-1vLZ_I {
+		cursor: var(--cursor);
+	}
+}

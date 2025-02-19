@@ -1,0 +1,107 @@
+@use '../assets';
+#app-mount .wrapper-3Un6-K {
+	border-radius: 0;
+
+	svg:not(:root) {
+		overflow: visible;
+	}
+
+	foreignObject {
+		border: 1px solid var(--base-border);
+		mask: none;
+		border-radius: var(--avatar-radius);
+		background: var(--background-dark);
+	}
+
+	rect {
+		x: 100%;
+		y: 100%;
+		stroke: var(--base-border);
+		rx: 50;
+		&[height='10'] {
+			width: 11px;
+			height: 11px;
+			x: 24.5px;
+			y: 24.5px;
+			&[mask*='mobile'] {
+				height: 18px;
+				y: 17px;
+			}
+		}
+		&[height='15'] {
+			width: 11px;
+			height: 11px;
+			x: 10;
+			y: 7;
+		}
+		&[width='8'] {
+			width: 8px;
+			height: 8px;
+			x: 19.5px;
+			y: 19.5px;
+		}
+		&[fill='#43b581'],
+		&[fill='rgb(67, 181, 129, 1)'],
+		&[mask*='online'] {
+			fill: rgb(var(--status-green));
+		}
+		&[fill='#faa61a'],
+		&[fill='#f0b232'],
+		&[fill='rgb(250, 166, 26, 1)'],
+		&[mask*='idle'] {
+			fill: rgb(var(--status-yellow));
+		}
+		&[fill='#f04747'],
+		&[fill='rgb(240, 71, 71, 1)'],
+		&[mask*='dnd'] {
+			fill: rgb(var(--status-red));
+		}
+		&[fill='#593695'],
+		&[mask*='streaming'] {
+			fill: rgb(var(--status-purple));
+		}
+		&[fill='#747f8d'],
+		&[mask*='offline'],
+		&[fill='NaN'],
+		&[mask*='invisible'],
+		&[fill='rgb(116, 127, 141, 1)'] {
+			fill: rgb(var(--status-grey));
+		}
+		&:not([mask*='mobile']) {
+			mask: none;
+		}
+		&:not([mask*='mobile']) {
+			mask: none;
+		}
+	}
+
+	.dots-1k2MxY circle {
+		&:nth-child(1) {
+			cy: -8 !important;
+			cx: -8.5 !important;
+		}
+		&:nth-child(2) {
+			cy: -8 !important;
+			cx: -2.25 !important;
+		}
+		&:nth-child(3) {
+			cy: -8 !important;
+			cx: 4 !important;
+		}
+	}
+
+	.avatarStack-3Bjmsl {
+		overflow: hidden;
+	}
+
+	// User popout
+	&[style^='width: 80'] {
+		circle {
+			opacity: 0 !important;
+		}
+		rect {
+			x: 70;
+			y: 70;
+		}
+	}
+}

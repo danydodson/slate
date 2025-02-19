@@ -1,0 +1,129 @@
+#app-mount .sidebar-1tnWFu {
+	// Server dropdown selected
+	.container-1-ERn5 {
+		background: var(--toolbar-background);
+		&.selected-1GtAC5 .header-3OsQeK {
+			background: var(--background);
+			border-bottom: 1px solid transparent;
+			.name-3Uvkvr {
+				color: var(--toolbar-text-normal);
+			}
+			.button-2BMPJJ {
+				border-top: 5px solid var(--toolbar-text-normal);
+			}
+		}
+	}
+	.header-3OsQeK {
+		box-shadow: none;
+		border-bottom: 1px solid var(--toolbar-border);
+		border-right: 1px solid var(--toolbar-border);
+		background-color: var(--toolbar-background);
+		height: var(--toolbar-height);
+		padding: var(--spacing);
+		transition: none;
+		position: absolute;
+		left: calc(var(--noasw-channel-header) * -1);
+		top: calc(var(--toolbar-height) * -1);
+		width: calc(100% + var(--noasw-channel-header));
+		z-index: 11;
+		filter: none;
+		cursor: var(--cursor);
+		.guildIconContainer-3QvE6w {
+			margin-right: var(--spacing);
+			.disableColor-MwOAZf,
+			.iconBackgroundTierNone-3MPhMJ,
+			.iconBackgroundTierOne-2LhaMB,
+			.iconBackgroundTierThree-3qw3JX,
+			.iconBackgroundTierTwo-3bCmdc {
+				color: var(--toolbar-background-active);
+			}
+			.iconTierNone-3xOaeG {
+				color: var(--toolbar-text-muted);
+			}
+			.bannerVisible-14J9lQ .iconBackgroundTierOne-2LhaMB,
+			.bannerVisible-14J9lQ .iconBackgroundTierThree-3qw3JX,
+			.bannerVisible-14J9lQ .iconBackgroundTierTwo-3bCmdc,
+			.iconTierOne-BHC2T8,
+			.iconTierTwo-_1edeM {
+				color: var(--toolbar-text-normal);
+			}
+		}
+		.name-3Uvkvr {
+			font-size: var(--font-size);
+			font-weight: var(--font-weight-semibold);
+			color: var(--toolbar-text-normal);
+			user-select: none;
+			line-height: normal;
+			&::before {
+				display: block;
+				content: var(--i18n-current-server);
+				font-size: var(--font-size-sm);
+				font-weight: var(--font-weight-normal);
+				color: var(--toolbar-text-muted);
+			}
+		}
+		// Chevron
+		.button-2BMPJJ {
+			transform-origin: center;
+			transition: none;
+			position: absolute;
+			margin: 0;
+			right: var(--spacing);
+			top: 0;
+			width: 0;
+			height: 0;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 5px solid var(--toolbar-text-muted);
+			g {
+				display: none;
+			}
+			&.open-3fGK6o {
+				transform: rotate(180deg);
+			}
+		}
+		&:hover {
+			background-color: var(--toolbar-background-hover);
+			.name-3YKhmS {
+				color: var(--toolbar-text-focus);
+			}
+			.button-2BMPJJ {
+				border-top: 5px solid var(--toolbar-text-focus);
+			}
+		}
+	}
+	// Banner image
+	.animatedContainer-2laTjx {
+		box-shadow: none;
+		mask: linear-gradient(rgb(0, 0, 0, 0.9) 0%, rgb(0, 0, 0, 0) 90%) !important;
+		z-index: 10;
+		pointer-events: none;
+	}
+	.bannerImage-ubW8K- {
+		width: var(--sidebar-width);
+		top: 0;
+	}
+	.bannerImg-2PzH6z {
+		width: 100%;
+	}
+}
+
+// Verified Guild (Global Component)
+
+.verified-1Jv_7P {
+	color: rgb(var(--status-green));
+}
+.partnered-23cXFN {
+	color: var(--accent-solid);
+}
+
+// Light Mode
+.theme-light #app-mount .sidebar-1tnWFu .container-2Rl01u.selected-WP3kCM .header-3OsQeK {
+	border-right: none;
+	h1 {
+		color: var(--text-focus);
+	}
+	.button-2BMPJJ {
+		border-top: 5px solid var(--text-focus);
+	}
+}

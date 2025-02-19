@@ -1,0 +1,39 @@
+#app-mount [role='radiogroup'] {
+	margin-bottom: var(--spacing-double);
+	.item-2idW98 {
+		border-radius: 0;
+		margin: 0;
+		background: transparent;
+		border: 1px solid var(--base-border);
+		border-top: none;
+		cursor: var(--cursor);
+		padding: var(--spacing) !important;
+		.radioBar-3w9XY- {
+			padding: 0 !important;
+			border: none;
+			svg {
+				display: none;
+			}
+		}
+		.title-1yyp9V {
+			font-size: var(--font-size-md);
+		}
+
+		&:first-child {
+			border-radius: var(--border-radius) var(--border-radius) 0 0;
+			border-top: 1px solid var(--base-border);
+		}
+		&:last-child {
+			border-top: none;
+			border-radius: 0 0 var(--border-radius) var(--border-radius);
+		}
+		&[aria-checked='true'] {
+			background: rgb(var(--accent), 1);
+			border-color: rgb(var(--accent), 1);
+			.colorStandard-21JIj7,
+			.colorHeaderSecondary-g5teka {
+				color: var(--white);
+			}
+		}
+	}
+}

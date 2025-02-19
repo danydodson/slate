@@ -1,0 +1,111 @@
+@use '../assets';
+
+#app-mount {
+	.container-KM8BU6 {
+		background: var(--background);
+		flex-wrap: wrap;
+		&::before {
+			content: 'Reactions';
+			height: 50px;
+			display: flex;
+			align-items: center;
+			padding: var(--spacing-double);
+			font-size: var(--font-size-md);
+			font-weight: var(--font-weight-semibold);
+			color: var(--text-normal);
+			width: 100%;
+			box-sizing: border-box;
+			border-bottom: 1px solid var(--base-border);
+		}
+		.reactors-1VXca7 {
+			background: var(--background);
+			border-left: 1px solid var(--base-border);
+			height: calc(100% - 50px);
+			flex: 1;
+			.content-2a4AW9 {
+				height: auto !important;
+			}
+			.reactor-1J25Qp {
+				box-shadow: none;
+				margin: 0;
+				padding: 0 var(--spacing);
+				height: var(--item-height);
+				&:hover {
+					background: var(--background-modifier-hover);
+				}
+				&:active {
+					background: var(--background-modifier-active);
+				}
+				.remove-19AQn_ {
+					cursor: var(--cursor);
+					padding: 0;
+					background: transparent;
+					color: var(--text-muted);
+					opacity: 1;
+					width: 12px;
+					height: 12px;
+					&:hover {
+						color: var(--text-normal);
+					}
+					path {
+						d: path(assets.$path_close);
+						transform: scale(2) translateY(-2px);
+					}
+				}
+				.nickname-1PaREw {
+					line-height: normal;
+					color: var(--text-normal);
+					font-weight: var(--font-weight-semibold);
+				}
+				.nameTag-H6kSJ0 {
+					line-height: normal;
+					.username-tJjT82 {
+						font-weight: var(--font-weight-semibold);
+						color: var(--text-normal);
+					}
+					.discriminator-1DCM-o {
+						font-size: var(--font-size);
+						color: var(--text-muted);
+						font-weight: var(--font-weight-normal);
+					}
+					&.tagFaded-1S1bJ- {
+						opacity: 1;
+						padding-left: var(--spacing-half);
+						.username-tJjT82 {
+							color: var(--text-muted);
+							font-weight: var(--font-weight-normal);
+						}
+					}
+				}
+			}
+		}
+		.scroller-2GkvCq {
+			background: var(--background);
+			padding: 0;
+			width: auto;
+			height: calc(100% - 50px);
+			.reactionDefault-1Sjj1f,
+			.reactionSelected-1aMb2K {
+				border-radius: var(--border-radius);
+				padding: var(--spacing-half) var(--spacing);
+				cursor: var(--cursor);
+				margin: var(--spacing);
+				color: var(--text-normal);
+			}
+			.colorStandard-21JIj7 {
+				color: inherit;
+			}
+			.reactionSelected-1aMb2K {
+				background: var(--accent-solid);
+				color: var(--white);
+			}
+			.reactionDefault-1Sjj1f:hover {
+				background: transparent;
+			}
+			.emoji-1kNQp2 {
+				padding: 0;
+				margin-right: var(--spacing);
+			}
+		}
+	}
+}

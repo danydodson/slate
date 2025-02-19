@@ -1,0 +1,35 @@
+#app-mount .chatContent-3KubbW .divider-2rZFJK {
+	height: auto;
+	margin: 0;
+	padding: var(--spacing-half) 0;
+	border-top: 1px solid var(--base-border);
+	background: var(--background);
+	top: 0;
+	.content-3spvdd {
+		background: transparent;
+		font-size: var(--font-size-xsm);
+		padding: 0 var(--spacing) 0 0;
+	}
+	& + li > .cozy-VmLDNB.groupStart-3Mlgv1 {
+		margin-top: 0;
+	}
+	& + .wrapper-30-Nkg.cozy-VmLDNB {
+		margin-top: 0;
+	}
+	&.isUnread-3Lojb- {
+		border-bottom: 1px solid var(--base-border);
+		.unreadPill-3nEWYM {
+			position: unset;
+			background: transparent;
+			font-size: var(--font-size-xsm);
+			color: rgb(var(--status-red), 1);
+			padding: 0;
+			svg {
+				display: none;
+			}
+		}
+		& + li > .cozy-VmLDNB {
+			margin-top: calc(var(--spacing) - 12px);
+		}
+	}
+}

@@ -1,0 +1,168 @@
+@use '../assets';
+
+#app-mount .root-g14mjS.popout-3gby1q {
+	left: 246px;
+	top: calc(var(--spacing) - 8px);
+	position: relative;
+	width: 300px;
+	background: var(--background);
+	border: 1px solid var(--base-border);
+	box-shadow: var(--elevation-1);
+	border-radius: var(--border-radius);
+	box-sizing: border-box;
+	max-height: unset;
+	min-height: unset;
+	&::before {
+		content: '';
+		position: absolute;
+		left: 22px;
+		top: -4px;
+		height: 10px;
+		width: 10px;
+		background: var(--background-alt);
+		transform: rotate(-135deg);
+		border-bottom: 1px solid var(--base-border);
+		border-right: 1px solid var(--base-border);
+		-webkit-clip-path: polygon(0 100%, 100% 100%, 100% 0);
+		clip-path: polygon(0 100%, 100% 100%, 100% 0);
+		box-shadow: var(--elevation-1);
+	}
+	.header-1zd7se {
+		padding: var(--spacing);
+		transition: none;
+		box-shadow: none;
+		border-bottom: 1px solid var(--base-border);
+		box-sizing: border-box;
+		background: var(--background-alt);
+		border-radius: var(--border-radius) var(--border-radius) 0 0;
+		position: static;
+		.h4-1_f8j1,
+		.tag-15zcD_ {
+			// fuck these
+			display: none;
+		}
+		.h4-1_f8j1:only-child {
+			display: flex;
+			align-items: center;
+			box-sizing: border-box;
+			height: var(--input-height);
+			background-color: var(--background-dark);
+			border: 1px solid var(--base-border);
+			border-radius: var(--border-radius);
+			font-size: var(--font-size);
+			padding: 0 var(--spacing-half);
+			color: var(--text-normal);
+			font-weight: var(--font-weight-normal);
+			margin: 0;
+			z-index: 1;
+			text-transform: none;
+			opacity: 0.5;
+			cursor: not-allowed;
+		}
+		.subtitle-3v29zT {
+			color: var(--text-normal);
+			font-size: var(--font-size);
+			font-weight: var(--font-weight-normal);
+			line-height: normal;
+			margin: 0;
+			margin-bottom: var(--spacing-half);
+		}
+		.searchBar-14YqL- {
+			margin: 0;
+			.inner-1NoIT5 {
+				overflow: visible !important;
+				.input-2FSSDe {
+					padding: 0 var(--spacing-half);
+				}
+			}
+		}
+	}
+	.scroller-1Kbkqa {
+		.content-2a4AW9 {
+			height: fit-content !important;
+			.friendWrapper-2x5j0A {
+				margin: 0;
+				padding: 0;
+				.friend-8ZraY7 {
+					font-size: var(--font-size);
+					font-weight: var(--font-weight);
+					color: var(--text-);
+					padding: 0 var(--spacing);
+					height: var(--item-height);
+					cursor: var(--cursor);
+					border-radius: 0;
+					display: flex;
+					align-items: center;
+					.avatar-135A-D {
+						height: var(--avatar-size-xsm) !important;
+						width: var(--avatar-size-xsm) !important;
+					}
+					.nickname-1PdAp3 {
+						display: none; // what is even the point of this
+					}
+					.discordTag-2ke74W {
+						opacity: 1;
+						color: var(--text-muted);
+						font-size: var(--font-size);
+						line-height: normal;
+						.username-3JLfHz {
+							font-weight: var(--font-weight-semibold);
+							color: var(--text-normal);
+						}
+					}
+					&.friendSelected-3cwmD7,
+					&:hover {
+						background: var(--background-modifier-hover);
+					}
+					&:active {
+						background: var(--background-modifier-active);
+					}
+				}
+			}
+		}
+	}
+	.errorState-1R6bBt {
+		margin: 0;
+		padding: var(--spacing-double);
+		color: var(--text-normal);
+		font-size: var(--font-size);
+		font-weight: var(--font-weight-normal);
+		line-height: normal;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.errorStateIcon-3y6XWh {
+			width: 72px;
+			height: 72px;
+			background: var(--text-muted);
+			display: block;
+			position: relative;
+			margin-bottom: var(--spacing);
+			mask: url(assets.$illustration_7) center/contain no-repeat;
+		}
+		> div:last-child {
+			max-width: 180px;
+		}
+	}
+	.footerSeparator-b6VH1V {
+		display: none; // why would they even add this
+	}
+	.footer-C9oLp9 {
+		flex: 0 !important;
+		padding: var(--spacing);
+		border-top: 1px solid var(--base-border);
+		button {
+			margin: 0;
+		}
+		.h5-18_1nd + .input-2g-os5 {
+			border: none;
+			padding: 0;
+			background: transparent;
+		}
+		.marginTop8-24uXGp {
+			margin-top: var(--spacing-half);
+			color: var(--text-muted);
+			font-size: var(--font-size-sm);
+		}
+	}
+}

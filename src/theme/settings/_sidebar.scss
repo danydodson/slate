@@ -1,0 +1,63 @@
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .sidebarRegion-1VBisG,
+#app-mount .layer-86YKbF[aria-label*='RTC'] .sidebarRegion-1VBisG {
+	flex: unset;
+	z-index: 10;
+	border-right: 1px solid var(--base-border);
+	.sidebarRegionScroller-FXiQOh {
+		flex: auto;
+	}
+	.sidebar-nqHbhN {
+		padding: var(--spacing) 0;
+		width: 220px;
+	}
+
+	// Header (User settings/App settings)
+	.header-2Kx1US {
+		display: none;
+	}
+	.separator-2wx7h6 {
+		margin: var(--spacing) 0;
+		border-bottom: 1px solid var(--base-border);
+		height: 1px;
+		background: transparent;
+	}
+
+	// Tab button
+	.item-3XjbnG {
+		margin: calc(var(--spacing) / 3) var(--spacing-double);
+		font-weight: var(--font-weight-normal);
+		font-size: var(--font-size);
+		padding: var(--spacing);
+		border-radius: var(--border-radius);
+		color: var(--text-normal);
+		line-height: normal;
+		min-width: 165px;
+		cursor: var(--cursor);
+		.badge-_BgAUQ {
+			background: rgb(var(--status-red));
+			padding: 0 var(--spacing-half);
+			border-radius: var(--button-border-radius);
+			font-size: var(--font-size-sm);
+			font-weight: var(--font-weight-normal);
+			color: var(--white);
+			text-transform: capitalize;
+			display: flex;
+			align-items: center;
+			line-height: normal;
+		}
+		&:hover,
+		&:active {
+			background-color: transparent;
+		}
+		&.selected-g-kMVV {
+			color: var(--white);
+			background: rgb(var(--accent));
+		}
+	}
+
+	// Socials
+	.socialLinks-2DELRE {
+		padding: calc(var(--spacing) / 3) var(--spacing-double);
+		margin-bottom: calc(var(--spacing) / 3);
+	}
+}

@@ -1,0 +1,26 @@
+#app-mount {
+	.uploadArea-2Nu_Vc {
+		background: var(--backdrop);
+	}
+	.uploadDropModal-13Kd20 {
+		height: auto;
+		padding: var(--spacing-double) 0;
+
+		.bgScale-1iWuPF {
+			background: var(--background);
+			border-radius: var(--border-radius);
+			box-shadow: var(--elevation-1);
+			border: 1px solid var(--base-border);
+		}
+		.inner-rBP-MS {
+			border: none;
+			border-radius: 0;
+		}
+		.icons-1UZPvE {
+			display: none;
+		}
+		.instructions-272j2A pre::before {
+			content: none;
+		}
+	}
+}
