@@ -3,17 +3,17 @@
  * @author Gibbu & Tropical
  * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language.
  * @version 1.2
- * @source https://github.com/DiscordStyles/Slate/
+ * @source https://github.com/danydodson/slate
  * @invite TeRQEPb
 */
 
-@import url('https://discordstyles.github.io/Slate/dist/Slate.css');
+@import url('https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/dist/Slate.css');
 
-@import url("https://discordstyles.github.io/Slate/Serverlist.css");
-@import url("https://discordstyles.github.io/Slate/ToolbarActions.css");
+@import url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/Serverlist.css");
+@import url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/ToolbarActions.css");
 /*
   Basic Variables
-  See available vars here: https://github.com/DiscordStyles/Slate/wiki
+  See available vars here: https://github.com/danydodson/slate/wiki
 */
 :root {
   /* Primary Colors */

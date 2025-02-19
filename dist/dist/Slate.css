@@ -1368,8 +1368,8 @@ html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .winButton-3UMjdg {
   height: 80px;
   margin: var(--spacing);
   background: var(--text-normal);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/cover no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/cover no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/1.svg") center/cover no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/1.svg") center/cover no-repeat;
 }
 #app-mount .sidebar-1tnWFu.hidden-38rxp9 {
   display: none;
@@ -2570,7 +2570,7 @@ html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .winButton-3UMjdg {
   right: var(--spacing-double);
 }
 #app-mount .messagesWrapper-RpOMA3 .container-1yy5xN .emptyChannelIcon-1YdEz2 {
-  background: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/cover no-repeat;
+  background: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/cover no-repeat;
   border-radius: 0;
   position: absolute;
   margin: 0;
@@ -2618,8 +2618,8 @@ html:not(.app-focused) body:not(.oldTitleBarEnabled-D8ppJQ) .winButton-3UMjdg {
   width: 90%;
   height: 200px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/3.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/3.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/3.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/3.svg") center/contain no-repeat;
   margin-bottom: var(--spacing);
 }
 #app-mount .messagesWrapper-RpOMA3 .container-30bdan .inner--CkhGx .titleName-2vkJTW {
@@ -5122,8 +5122,8 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-1
   width: 100px;
   height: 100px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/1.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/1.svg") center/contain no-repeat;
   margin-bottom: var(--spacing);
 }
 #app-mount .chat-2ZfjoI .messagesErrorBar-1IQ1rH::after {
@@ -5465,7 +5465,7 @@ html.theme-light #app-mount .reactions-1BUEKl .reaction-1hd86g:not(.reactionMe-1
   margin: 0;
   width: 175px !important;
   height: 175px !important;
-  background: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat !important;
+  background: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat !important;
 }
 #app-mount .container-2cd8Mz .text-27cdrj {
   display: none;
@@ -5791,7 +5791,7 @@ html.theme-light #app-mount .container-2RRFHK .problems-CvGwpb a.statusLink-TySQ
   display: none;
 }
 #app-mount .wrapper-3Q5DdO .rightSplit-24Bqk0 {
-  background: url("https://discordstyles.github.io/Slate/illustrations/2.svg") center/50%;
+  background: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/2.svg") center/50%;
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.4);
 }
 #app-mount .wrapper-3Q5DdO .authBox-1HR6Ha {
@@ -5990,8 +5990,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   margin: 0;
   max-width: unset;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/4.svg") center/50% no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/4.svg") center/50% no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/4.svg") center/50% no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/4.svg") center/50% no-repeat;
 }
 #app-mount .noChannel-Z1DQK7 .wrapper-5BaSTh .image-20MDYu,
 #app-mount .noChannel-Z1DQK7 .wrapper-5BaSTh .flexChild-3PzYmX {
@@ -6015,8 +6015,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   height: 490px;
   width: 290px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/11.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/11.svg") center/contain no-repeat;
+  -webkit-mask: url("hhttps://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/10.svg") center/contain no-repeat;
+          mask: url("hhttps://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/10.svg") center/contain no-repeat;
 }
 #app-mount .errorPage-2pZ2Kq .flex-2S1XBF .text-3IbNaT {
   width: 100%;
@@ -6155,8 +6155,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: block;
   background: var(--text-muted);
   margin-bottom: var(--spacing-double);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
 }
 #app-mount .header-13Cw0- {
   display: flex;
@@ -7032,8 +7032,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: block;
   position: relative;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
 }
 #app-mount .layer-2aCOJ3[style*=left][style*=top] .container-2McqkF.elevationBorderHigh-3drnJX::before {
   content: "";
@@ -8016,8 +8016,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   display: block;
   background: var(--text-muted);
   margin-bottom: var(--spacing-double);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/6.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/6.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/6.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/6.svg") center/contain no-repeat;
 }
 #app-mount .premiumPromo-1eKAIB .premiumPromoDescription-1kf0Oa {
   font-size: var(--font-size);
@@ -8047,8 +8047,8 @@ html.theme-light #app-mount .wrapper-25sY58 .qrLogin-1ejtpI .startOverButton-1G3
   width: 120px;
   height: 120px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
   margin-bottom: var(--spacing-double);
 }
 #app-mount #gif-picker-tab-panel .content-1CboaJ::after, #app-mount #gif-picker-tab-panel.container-23gRWx::after {
@@ -8728,8 +8728,8 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-2Zyzy8 .showMoreEmoj
   position: relative;
   display: block;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/50px no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/50px no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/1.svg") center/50px no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/1.svg") center/50px no-repeat;
 }
 #app-mount .container-2dXT_2 .content-3Y1V2C {
   margin-left: var(--spacing);
@@ -9074,8 +9074,8 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonCon
   display: block;
   position: relative;
   margin-bottom: var(--spacing);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
 }
 #app-mount .root-g14mjS.popout-3gby1q .errorState-1R6bBt > div:last-child {
   max-width: 180px;
@@ -9172,8 +9172,8 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonCon
   padding: var(--spacing-double);
 }
 #app-mount .everyonePopout-nEbJY3 .animation-3GofIz {
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/cover;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/1.svg") center/cover;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/1.svg") center/cover;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/1.svg") center/cover;
   background: var(--text-normal);
   width: 120px;
   min-width: 120px;
@@ -9468,8 +9468,8 @@ html.theme-light #app-mount .popout-2iWAc-.force-theme.content-i-YmzK .buttonCon
   height: 200px;
   margin-bottom: calc(var(--spacing) * 5);
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/3.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/3.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/3.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/3.svg") center/contain no-repeat;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-3HkfJJ .streamerModeEnabled-2q0Gft .streamerModeEnabledBtn-2nlJTD {
   font-size: var(--font-size);
@@ -10037,8 +10037,8 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
   width: 144px;
   height: 144px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
 }
 #app-mount .layer-86YKbF[aria-label=USER_SETTINGS] .emptyStateHeader-2qdbzr {
   margin-top: var(--spacing-double);
@@ -10200,7 +10200,7 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
   height: 72px;
   display: flex;
   background-color: var(--background-alt);
-  background-image: url("https://discordstyles.github.io/Slate/illustrations/2.svg");
+  background-image: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/2.svg");
   background-size: 125%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -10446,8 +10446,8 @@ html.theme-light #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .contentRegion-
 }
 #app-mount .layer-86YKbF[aria-label=USER_SETTINGS] .wrapper-5BaSTh .image-20MDYu {
   background: var(--text-muted) !important;
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
   width: 144px !important;
   height: 144px !important;
   margin: 0;
@@ -10795,8 +10795,8 @@ html.theme-light .connectionIcon-2ElzVe {
   height: 156px !important;
   margin-bottom: var(--spacing-double);
   background: var(--text-muted) !important;
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .wrapper-5BaSTh .title-2CL_z0 {
   color: var(--text-normal);
@@ -11089,8 +11089,8 @@ html.theme-light .connectionIcon-2ElzVe {
   height: 156px !important;
   margin-bottom: var(--spacing-double);
   background: var(--text-muted) !important;
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
 }
 
 #app-mount .sidebar-CFHs9e .item-PXvHYJ[aria-controls=Emotes-tab]::before {
@@ -12035,8 +12035,8 @@ html.theme-light #app-mount .footer-31IekZ .cancelButton-27U_rB:focus {
   height: 112px;
   width: 112px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/8.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/7.svg") center/contain no-repeat;
 }
 .bd-modal-wrapper .bd-modal .bd-modal-inner .bd-modal-body .scroller .errors:empty::after {
   content: "Nothing to see here.";
@@ -13382,8 +13382,8 @@ html.theme-light #app-mount .theme-light .root-g14mjS .container-36u7Lw > div[st
   width: 280px;
   height: 140px;
   background: var(--text-muted);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/5.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/5.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/5.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/5.svg") center/contain no-repeat;
   margin-bottom: var(--spacing-double);
 }
 
@@ -14228,8 +14228,8 @@ html.theme-light #app-mount .regionSelectModal-12e-57 .regionSelectModalOptions-
   position: relative;
   display: block;
   margin-bottom: var(--spacing-half);
-  -webkit-mask: url("https://discordstyles.github.io/Slate/illustrations/4.svg") center/contain no-repeat;
-          mask: url("https://discordstyles.github.io/Slate/illustrations/4.svg") center/contain no-repeat;
+  -webkit-mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/4.svg") center/contain no-repeat;
+          mask: url("https://raw.githubusercontent.com/danydodson/slate/refs/heads/main/dist/illustrations/4.svg") center/contain no-repeat;
 }
 #app-mount .wrapper-3ByaVZ .root-g14mjS .scroller-3nFW5p {
   height: 300px;
